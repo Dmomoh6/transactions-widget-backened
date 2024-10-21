@@ -11,8 +11,8 @@ const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 5000;
 
 app.use(
   cors({
-    //one for the frontend and the other for swagger
-    origin: ["http://localhost:5173", "http://localhost:5000"],
+    //Opening cors to all domains for submission
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
