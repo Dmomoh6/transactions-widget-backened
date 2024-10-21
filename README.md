@@ -20,3 +20,17 @@ A Node.js and TypeScript-based backend service for managing and fetching transac
 ## Dependencies
 
 An example .env file is included in the repository.
+
+## Compilation
+To run this application:
+- git clone https://github.com/Dmomoh6/transactions-widget-backened.git
+- cd transactions-widget-backened
+- npm install
+- Rename the .env.example file to .env and input the postgress db information, and mobula API key. SERVER_URL can be left blank
+- npm start
+
+  ## Live Demo
+  https://transactions-widget-backened.onrender.com/
+
+  ## Live API Docs
+  https://transactions-widget-backened.onrender.com/api-docs/
